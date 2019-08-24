@@ -1,0 +1,135 @@
+@media screen and (min-width: 1200px) {
+    
+#footer #footer-contents > div{
+    border-left: 1px solid #774831;
+    border-right: 1px solid #774831;
+    border-collaps: collapse;
+}
+#footer #footer-contents > div:last-child{
+    border-right: 1px solid #774831;
+}
+#footer img {
+width: 100%;
+}  
+	
+} /* END */
+
+/* 螟ｧ繝�ヰ繧､繧ｹ�医ョ繧ｹ繧ｯ繝医ャ繝�, 1200px 譛ｪ貅��
+==============================================*/
+@media screen and (max-width:1199.98px) {
+
+/* 繝医ャ繝励�繝ｼ繧ｸ�壼推繧ｻ繧ｯ繧ｷ繝ｧ繝ｳ */
+    
+#sec2 .row {
+    background-size: auto 550px;
+}
+
+} /* END */
+
+
+/* 荳ｭ繝�ヰ繧､繧ｹ�医ち繝悶Ξ繝�ヨ, 992px 譛ｪ貅��
+==============================================*/
+@media screen and (max-width:991.98px) {
+#footer #footer-contents > div{
+    border-bottom: 1px solid #774831;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1rem;
+}
+#footer img {
+    width: 100%;
+    max-width: 748px;
+    margin: 0 auto;
+}
+
+/* 繝医ャ繝励�繝ｼ繧ｸ�壼推繧ｻ繧ｯ繧ｷ繝ｧ繝ｳ */    
+#sec2 img {
+    width: 100%;
+    height: 100%;
+}    
+    
+} /* END */
+
+/* 蟆上ョ繝舌う繧ｹ�域ｨｪ蜷代″繝｢繝舌う繝ｫ, 768px 譛ｪ貅��
+==============================================*/
+@media screen and (max-width:767.98px) {
+h1{
+    font-size: 2rem;
+}    
+main .btn{
+    font-size: 0.95rem;
+}
+    #footer #footer-contents > div:first-child {
+    border-right: none !important;
+}
+#footer .container{
+    padding-top: 0px;
+}
+#footer .container .row{
+    margin-bottom: 0;
+}
+
+#footer #copyright{
+    font-size: 0.8rem;
+}
+#footer h2{
+    margin: 2rem 0;
+}
+
+/* 繝医ャ繝励�繝ｼ繧ｸ�壼推繧ｻ繧ｯ繧ｷ繝ｧ繝ｳ */
+    
+#page-top h1 + small {
+    font-size: 1.5rem;
+}
+#page-top .jumbotron-fluid{
+    height: 320px;
+}
+#page-top section{
+    padding-top: 50px;
+}
+#page-top section .container > h2{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+#page-top section .container > h2 + p{
+    margin-bottom: 40px;
+}
+#page-top section .container h3{
+    font-size: 1.2rem;
+}
+#sec2 .row {
+    background-size: auto 400px;
+}
+#sec4 .card-body .card-subtitle{
+    font-size: 0.75rem;
+}
+
+/* 荳句ｱ､繝壹�繧ｸ */
+    
+#page section {
+    padding: 3rem 0 0;
+}
+  
+} /* END */
+
+
+/* 讌ｵ蟆上ョ繝舌う繧ｹ�育ｸｦ蜷代″繝｢繝舌う繝ｫ, 576px 譛ｪ貅��
+==============================================*/
+@media screen and (max-width:575.98px) {
+.navbar-collapse .btn {
+    margin: 10px auto;
+}
+    
+/* 繝医ャ繝励�繝ｼ繧ｸ�壼推繧ｻ繧ｯ繧ｷ繝ｧ繝ｳ */
+    
+#sec2 .row {
+    background-size: auto 300px;
+}
+
+/* 荳句ｱ､繝壹�繧ｸ */
+
+#page section {
+    padding: 2rem 0 0;
+}    
+    
+} /* END */
